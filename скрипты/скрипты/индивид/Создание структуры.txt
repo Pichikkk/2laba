@@ -1,0 +1,12 @@
+echo off
+rem создание корневой папки с фамилией
+md Kotov
+
+rem переход в папку с фамилией
+cd Kotov
+
+rem создание папок с именем и отчеством
+md Dmitriy
+md Alekseevich
+
+pause

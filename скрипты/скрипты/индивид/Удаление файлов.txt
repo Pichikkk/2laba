@@ -1,0 +1,8 @@
+echo off
+rem Удаление файла с датой рождения из папки Kotov
+del Kotov\20121999.txt
+
+rem Удаление файла с номером компьютера из папки Alekseevich
+del Kotov\Alekseevich\PC17.txt
+
+pause

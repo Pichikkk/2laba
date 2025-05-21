@@ -1,0 +1,15 @@
+echo off
+rem Переход в папку с фамилией
+cd Kotov
+
+rem Создание файла с датой рождения
+echo. > 20121999.txt
+
+rem Переход в папку с отчеством
+cd ..
+cd Kotov\Alekseevich
+
+rem Создание файла с номером компьютера
+echo. > PC17.txt
+
+pause

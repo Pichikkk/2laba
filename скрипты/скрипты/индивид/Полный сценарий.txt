@@ -1,0 +1,27 @@
+@echo off
+:: === ШАГ 1: Создание дерева каталогов ===
+echo Создание дерева каталогов...
+md Pichikova\Valeria
+md Pichikova\Viktorovna
+echo Каталоги Pichikova\Valeria и Pichikova\Viktorovna созданы.
+pause
+
+:: === ШАГ 2: Создание файлов ===
+echo Создание файлов...
+echo > Pichikova\13022004.txt
+echo > Pichikova\Viktorovna\PC17.txt
+echo Файлы 13022004.txt и PC17.txt созданы.
+pause
+
+:: === ШАГ 3: Удаление файлов ===
+echo Удаление файлов...
+del /Q Pichikova\13022004.txt
+del /Q Pichikova\Viktorovna\PC17.txt
+echo Файлы удалены.
+pause
+
+:: === ШАГ 4: Удаление каталогов ===
+echo Удаление каталогов...
+rd /S /Q Pichikova
+echo Каталог Pichikova и все вложенные папки удалены.
+pause
